@@ -259,3 +259,84 @@
     position: relative;
     display: flex;
 }
+
+.veami{
+    display: flex;
+    position: relative;
+}
+.veami:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    background-color:  rgb(143, 167, 241);
+    width: 30%;
+    height: 2px;
+    border-radius: 6px;
+}
+.tbjtext{
+    display: flex;
+    position: relative;
+}
+.tbjtext:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    background-color:  rgb(143, 167, 241);
+    width:4%;
+    height: 2px;
+    border-radius: 6px;
+}
+.ctn-slider{
+    width: 90%;
+    max-width: 750px;
+    /* height: 90%; */
+    margin: 100px auto;
+    overflow: hidden;
+}
+
+.slider{
+    display: flex;
+    width: 400%;
+    height: 400px;
+}
+
+.slider--section{
+    width: 100%;
+}
+
+.slider--img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sliderbtn{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255,
+    0.7) ;
+    top: 50%;
+    /* transform: translateY(-50%) ; */
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #000;
+}
+
+.sliderbtn:hover{
+    background-color: #fff;
+}
+
+.sliderbtn-right{
+    right: 180px;
+}
+
+.sliderbtn-left{
+    left: 180px;
+}
