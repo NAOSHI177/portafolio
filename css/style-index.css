@@ -340,3 +340,141 @@
 .sliderbtn-left{
     left: 180px;
 }
+
+.divskill{
+    width: 100%;
+    height: 720px;
+    background-color: #021d34;
+    color: #fff;
+    position: relative;
+    display: flex;
+}
+
+.ctnskills{
+    width: 70%;
+    height: 500px;
+    margin: auto;
+}
+.tittleskill{
+    /* text-align: center; */
+    font-size: 48px;
+    margin: 4px;
+    padding: 0px;
+    position: relative;
+}
+.tittleskill::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    background-color:  rgb(143, 167, 241);
+    width: 100%;
+    height: 1px;
+    border-radius: 6px;
+}
+.col h3 {
+    font-size: 30px;
+    padding: 20px;
+    margin-left: 50px;
+    position: relative;
+}
+.col h3::after{
+    content: "";
+    position: absolute;
+    left: 20px;
+    bottom: 14px;
+    background-color:  rgb(143, 167, 241);
+    width: 37%;
+    height: 3px;
+    border-radius: 6px;
+}
+
+.colskill{
+    display: flex;
+    justify-content: center;
+}
+
+.skill{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.col{
+    width: 50%;
+}
+
+.skill > span{
+    padding: 10px 0px;
+    font-weight: 800;
+}
+.skill > span::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 45px;
+    background-color:  rgb(143, 167, 241);
+    width: 4%;
+    height: 2px;
+    border-radius: 6px;
+}
+
+.barra-skill{
+    height: 8px;
+    width: 80%;
+    background-color: #131517;
+    position: relative;
+    margin-bottom: 30px;
+}
+.progreso{
+    background-color: #1CB698;
+    position: absolute;
+    top: -4;
+    left: 0;
+    height: 8px;
+}
+
+.js-p{
+    width: 30%;
+}
+.css-p{
+    width: 65%;
+}
+.ph-p{
+    width: 70%;
+}
+.pp-p{
+    width: 65%;
+}
+.c-p{
+    width: 15%;
+}
+
+.barra-skill span{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: #1CB698;
+    border-radius: 50px;
+    line-height: 40px;
+    text-align: center;
+    top: -17px;
+    right: -15px;
+    font-size: 14px;
+}
+
+.cm-p{
+    width: 50%;
+}
+.te-p{
+    width: 70%;
+}
+.ct-p{
+    width: 80%;
+}
+.dc-p{
+    width: 90%;
+}
+.pm-p{
+    width: 74%;
+}
+
