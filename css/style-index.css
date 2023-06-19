@@ -356,7 +356,6 @@
     margin: auto;
 }
 .tittleskill{
-    /* text-align: center; */
     font-size: 48px;
     margin: 4px;
     padding: 0px;
@@ -478,3 +477,57 @@
     width: 74%;
 }
 
+.contactdiv{
+    width: 100%;
+    height: 320px;
+    background-color: #02253d;
+    color: #fff;
+    position: relative;
+    display: flex;
+}
+
+.ctncontact{
+    width: 550px;
+    margin: auto;
+    text-align: center;
+    border-radius: 40px;
+}
+.ctncontact h1{
+    text-align: center;
+}
+
+.redes{
+    background-color: #021d34;
+}
+.redes a{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+.redes a:hover{
+    background-color: #1CB698;
+}
+
+.volerinicio a{
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.volerinicio a:hover{
+    color: #000;
+}
+
+.volerinicio a svg{
+    margin-top: 400px;
+}
